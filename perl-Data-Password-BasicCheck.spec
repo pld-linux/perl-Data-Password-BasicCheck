@@ -24,7 +24,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Data::Password::BasicCheck objects will do the following checks on the
 given passwords:
 
-- password length is in a defined range that is estabilished at object
+- password length is in a defined range that is established at object
   creation;
 - there are at least pL symbols in password, where L is password
   length and p is 0 < p =< 1. If not specified at object creation we
@@ -42,13 +42,13 @@ Obiekty Data::Password::BasicCheck na podanych has³ach sprawdz± czy:
 
 - d³ugo¶æ has³a jest w zakresie podanym przy tworzeniu obiektu;
 - w ha¶le znajduje siê przynajmniej pL symboli, gdzie L jest d³ugo¶ci±
-  has³a, a o hest liczb± z zakresu 0 < p =< 1. Je¶li warto¶æ nie
+  has³a, a p jest liczb± z zakresu 0 < p =< 1. Je¶li warto¶æ nie
   zostanie podana podczas tworzeniu obiektu, przyjmie warto¶æ domy¶ln± 
   p = 2/3 (czyli: 0.666666...)
 - has³o zawiera litery, cyfry i znaki niealfanumeryczne
 - rotacje has³a nie pasuj± do orygina³u (n.p.: has³o a1&a1& pasuje do
   samego siebie po trzech rotacjach)
-- po usuniecy cyfr i symboli has³o, jego odwrotno¶æ oraz wszystkie
+- po usuniêciu cyfr i symboli has³o, jego odwrotno¶æ oraz wszystkie
   mo¿liwe rotacje nie pasuj± do którychkolwiek z podanych informacji
   osobistych (imiê, nazwisko, miasto, login)
 
