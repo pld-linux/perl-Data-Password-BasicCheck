@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Data
-%define	pnam	Password-BasicCheck
+%define		pdir	Data
+%define		pnam	Password-BasicCheck
 Summary:	Data::Password - Basic password checking
 Summary(pl):	Data::Password - Podstawowe sprawdzanie poprawno¶ci has³a
 Name:		perl-%{pdir}-%{pnam}
