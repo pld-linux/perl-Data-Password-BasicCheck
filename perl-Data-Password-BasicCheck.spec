@@ -10,7 +10,7 @@ Summary(pl):	Data::Password - Podstawowe sprawdzanie poprawno¶ci has³a
 Name:		perl-%{pdir}-%{pnam}
 Version:	2.01
 Release:	1
-License:	GPL v2+	
+License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d3a5a3a1ac1263d3178c6785bdf6555b
@@ -37,7 +37,20 @@ given passwords:
   and all possible rotations don't match any personal information given
   (name, surname, city, username)
 
-#%description -l pl
+%description -l pl
+Obiekty Data::Password::BasicCheck na podanych has³ach sprawdz± czy:
+
+- d³ugo¶æ has³a jest w zakresie podanym przy tworzeniu obiektu;
+- w ha¶le znajduje siê przynajmniej pL symboli, gdzie L jest d³ugo¶ci±
+  has³a, a o hest liczb± z zakresu 0 < p =< 1. Je¶li warto¶æ nie
+  zostanie podana podczas tworzeniu obiektu, przyjmie warto¶æ domy¶ln± 
+  p = 2/3 (czyli: 0.666666...)
+- has³o zawiera litery, cyfry i znaki niealfanumeryczne
+- rotacje has³a nie pasuj± do orygina³u (n.p.: has³o a1&a1& pasuje do
+  samego siebie po trzech rotacjach)
+- po usuniecy cyfr i symboli has³o, jego odwrotno¶æ oraz wszystkie
+  mo¿liwe rotacje nie pasuj± do którychkolwiek z podanych informacji
+  osobistych (imiê, nazwisko, miasto, login)
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
