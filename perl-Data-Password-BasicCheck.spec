@@ -6,7 +6,7 @@
 %define		pdir	Data
 %define		pnam	Password-BasicCheck
 Summary:	Data::Password - Basic password checking
-Summary(pl):	Data::Password - Podstawowe sprawdzanie poprawno∂ci has≥a
+Summary(pl.UTF-8):   Data::Password - Podstawowe sprawdzanie poprawno≈õci has≈Ça
 Name:		perl-%{pdir}-%{pnam}
 Version:	2.01
 Release:	1
@@ -37,20 +37,20 @@ given passwords:
   and all possible rotations don't match any personal information given
   (name, surname, city, username)
 
-%description -l pl
-Obiekty Data::Password::BasicCheck na podanych has≥ach sprawdz± czy:
+%description -l pl.UTF-8
+Obiekty Data::Password::BasicCheck na podanych has≈Çach sprawdzƒÖ czy:
 
-- d≥ugo∂Ê has≥a jest w zakresie podanym przy tworzeniu obiektu;
-- w ha∂le znajduje siÍ przynajmniej pL symboli, gdzie L jest d≥ugo∂ci±
-  has≥a, a p jest liczb± z zakresu 0 < p =< 1. Je∂li warto∂Ê nie
-  zostanie podana podczas tworzeniu obiektu, przyjmie warto∂Ê domy∂ln± 
+- d≈Çugo≈õƒá has≈Ça jest w zakresie podanym przy tworzeniu obiektu;
+- w ha≈õle znajduje siƒô przynajmniej pL symboli, gdzie L jest d≈Çugo≈õciƒÖ
+  has≈Ça, a p jest liczbƒÖ z zakresu 0 < p =< 1. Je≈õli warto≈õƒá nie
+  zostanie podana podczas tworzeniu obiektu, przyjmie warto≈õƒá domy≈õlnƒÖ 
   p = 2/3 (czyli: 0.666666...)
-- has≥o zawiera litery, cyfry i znaki niealfanumeryczne
-- rotacje has≥a nie pasuj± do orygina≥u (n.p.: has≥o a1&a1& pasuje do
+- has≈Ço zawiera litery, cyfry i znaki niealfanumeryczne
+- rotacje has≈Ça nie pasujƒÖ do orygina≈Çu (n.p.: has≈Ço a1&a1& pasuje do
   samego siebie po trzech rotacjach)
-- po usuniÍciu cyfr i symboli has≥o, jego odwrotno∂Ê oraz wszystkie
-  moøliwe rotacje nie pasuj± do ktÛrychkolwiek z podanych informacji
-  osobistych (imiÍ, nazwisko, miasto, login)
+- po usuniƒôciu cyfr i symboli has≈Ço, jego odwrotno≈õƒá oraz wszystkie
+  mo≈ºliwe rotacje nie pasujƒÖ do kt√≥rychkolwiek z podanych informacji
+  osobistych (imiƒô, nazwisko, miasto, login)
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
