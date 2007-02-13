@@ -6,7 +6,7 @@
 %define		pdir	Data
 %define		pnam	Password-BasicCheck
 Summary:	Data::Password - Basic password checking
-Summary(pl.UTF-8):   Data::Password - Podstawowe sprawdzanie poprawności hasła
+Summary(pl.UTF-8):	Data::Password - Podstawowe sprawdzanie poprawności hasła
 Name:		perl-%{pdir}-%{pnam}
 Version:	2.01
 Release:	1
