@@ -9,7 +9,7 @@ Summary:	Data::Password - Basic password checking
 Summary(pl.UTF-8):	Data::Password - Podstawowe sprawdzanie poprawności hasła
 Name:		perl-%{pdir}-%{pnam}
 Version:	2.01
-Release:	1
+Release:	3
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -75,5 +75,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc Changes README
+%dir %{perl_vendorlib}/Data/Password
 %{perl_vendorlib}/Data/Password/*.pm
 %{_mandir}/man3/*
