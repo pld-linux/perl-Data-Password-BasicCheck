@@ -5,14 +5,14 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Data
 %define		pnam	Password-BasicCheck
-Summary:	Data::Password - Basic password checking
-Summary(pl.UTF-8):	Data::Password - Podstawowe sprawdzanie poprawności hasła
-Name:		perl-%{pdir}-%{pnam}
+Summary:	Data::Password::BasicCheck - Basic password checking
+Summary(pl.UTF-8):	Data::Password::BasicCheck - Podstawowe sprawdzanie poprawności hasła
+Name:		perl-Data-Password-BasicCheck
 Version:	2.01
 Release:	3
 License:	GPL v2+
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/Data/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	d3a5a3a1ac1263d3178c6785bdf6555b
 URL:		http://search.cpan.org/dist/Data-Password-BasicCheck/
 BuildRequires:	perl-devel >= 1:5.8.0
