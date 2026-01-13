@@ -8,7 +8,7 @@ Summary:	Data::Password::BasicCheck - Basic password checking
 Summary(pl.UTF-8):	Data::Password::BasicCheck - Podstawowe sprawdzanie poprawności hasła
 Name:		perl-Data-Password-BasicCheck
 Version:	2.01
-Release:	3
+Release:	4
 License:	GPL v2+
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Data/%{pdir}-%{pnam}-%{version}.tar.gz
